@@ -1,0 +1,173 @@
+@charset "utf-8";
+
+/*共通事項
+--------------------*/
+html{
+	font-size: 100%;
+}
+body{
+	font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic medium", "Meiryo", sans-serif;
+	color: #111;
+	line-height: 1.8;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+	color: #000000;
+	transition: 0.2s;
+}
+a:hover{
+	opacity: 0.5;
+	transition: 0.3s;
+}
+
+/* レスポンシブ対応 */
+
+
+
+
+.wrapper{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/* header---------- */
+header{
+    padding: 20px 0 10px;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    z-index: 1000; 
+}
+.header-contents{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 1200px;
+    margin: 10px 390px;
+    padding: 0 20px;
+}
+.main-nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px 0 0;
+    width: 100%;
+    height: auto;
+}
+.main-nav ul li{
+    height: auto;
+    padding: 0 16px;
+    font-size: 20px;
+    text-shadow: 
+            -1px -1px 0 white,
+            1px -1px 0 white,
+            -1px 1px 0 white,
+            1px 1px 0 white;
+}
+
+/* main---------- */
+/* mainphoto */
+.main-photo{
+    position: relative;
+    display:  inline-block;
+}
+.main-photo img{
+    width: 100%;
+    height: auto;
+}
+.main-photo h1{
+    position: absolute;
+    top: 30%;
+    left: 65%;
+    text-align: right;
+    line-height: 1.2;
+    transform: translate(-50%, -50%);
+    font-size: 170px;
+    text-shadow: -8px 6px 4px rgba(0, 0, 0, 0.5);
+}
+.main-photo p{
+    position: absolute;
+    top: 70%;
+    left: 71%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 110px;
+    text-shadow: -8px 6px 4px rgba(0, 0, 0, 0.5);
+}
+/* mainworks */
+.main-works h2{
+    text-align: center;
+    font-size: 100px;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+}
+.main-works ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    list-style: none;
+    padding: auto;
+}
+.main-works li{
+    padding: 10px;
+    text-align: center;
+}
+.main-works p{
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    padding: 10px 0 0 0;
+}
+/* mainabout */
+.main-about h2{
+    text-align: center;
+    font-size: 100px;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+}
+/* mainphptography */
+.main-photography h2{
+    text-align: center;
+    font-size: 100px;
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+}
+.main-contact h2{
+    text-align: center;
+    font-size: 100px;
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+}
+.main-contact p{
+    font-size: 75px;
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color: #000000;
+    padding: 0 20px;
+    border-radius: 30px;
+}
+.main-contact ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 10px;
+}
+.main-contact img{
+    width: 60%;
+}
+/* footer---------- */
+footer {
+    text-align: center;
+    font-size: 20px;
+    background-color: #6a6a6a4b;
+    padding: 130px 0px 20px 0;
+}
