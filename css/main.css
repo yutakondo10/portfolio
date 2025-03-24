@@ -30,7 +30,7 @@ a:hover{
 
 
 .wrapper{
-	width: 1200px;
+	width: 1024px;
 	margin: 0 auto;
 }
 
@@ -144,7 +144,7 @@ header{
     font-size: 100px;
     width: 100%;
     height: auto;
-    padding-top: 40px;
+    padding: 40px 0;
 }
 .main-contact p{
     font-size: 75px;
@@ -159,7 +159,7 @@ header{
     display: flex;
     align-items: center;
     gap: 60px;
-    padding: 10px;
+    padding: 0px 0 30px 0;
 }
 .main-contact img{
     width: 60%;
