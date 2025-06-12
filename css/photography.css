@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+/* photography */
+.photography h2{
+    font-size: 80px;
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+.photos {
+    column-count: 3;
+    column-gap: 10px;
+}
+
+.photos img {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
