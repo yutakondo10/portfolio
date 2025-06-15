@@ -17,20 +17,28 @@
         <h1>モグラ叩きゲーム</h1>
         <div>
             <ul class="project-top">
-                <li><img src="img/saito/もぐらたたきゲーム (1).png" alt="saitophoto"></li>
-                <li><p>学校課題でJavaScriptを使用し、モグラ叩きゲームを作成した。<br>
-                        マウスイベント、タイマーイベントを利用し作成した。<br><br>
+                <li><a href="img/saito/もぐらたたきゲーム (1).png" class="modalOpen"><img src="img/saito/もぐらたたきゲーム (1).png" alt="saitophoto"></a></li>
+                <li><p>JavaScriptでモグラ叩きゲームを作成しました。<br>
+                        マウスイベントやタイマーイベントを使用しました。<br>
+                        叩けた数、ミスした数のカウントやマウスイベントの適応に苦戦しましたが正常に動作するものを作成することができました。<br><br>
                         作成期間2週間</p></li>
             </ul>
             <ul class="project-photo">
-                <li><img src="img/saito/もぐらたたきゲーム.png" alt="saitophoto"></li>
-                <li><img src="img/saito/もぐらたたきゲーム (2).png" alt="saitophoto"></li>
-                <li><img src="img/saito/もぐらたたきゲームスクショ.png" alt="saitophoto"></li>
+                <li><a href="img/saito/もぐらたたきゲーム.png" class="modalOpen"><img src="img/saito/もぐらたたきゲーム.png" alt="saitophoto"></a></li>
+                <li><a href="img/saito/もぐらたたきゲーム (2).png" class="modalOpen"><img src="img/saito/もぐらたたきゲーム (2).png" alt="saitophoto"></a></li>
+                <li><a href="img/saito/もぐらたたきゲームスクショ.png" class="modalOpen"><img src="img/saito/もぐらたたきゲームスクショ.png" alt="saitophoto"></a></li>
             </ul>
         </div>
     </main>
     <!-- footer -->
     <div id="footer"></div>
 
+    <div class="modal" id="modal">
+        <div class="modal__overlay modalClose"></div>
+        <div class="modal__content">
+            <span class="modalClose modal__close">&times;</span>
+            <img id="modalImage" src="" alt="">
+        </div>
+    </div>
 </body>
 </html>

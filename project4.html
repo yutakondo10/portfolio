@@ -17,21 +17,28 @@
         <h1>依頼撮影</h1>
         <div>
             <ul class="project-top">
-                <li><img src="img/DSC_6503.jpg" alt="saitophoto"></li>
+                <li><a href="img/DSC_6503.jpg" class="modalOpen"><img src="img/DSC_6503.jpg" alt="saitophoto"></a></li>
                 <li><p>岐阜県恵那市の飯高観音萬勝寺様の節分特別祈祷の依頼撮影を行いました。
                     行事の賑わいや、その場の雰囲気や参加者の感情が伝わる写真撮影を心がけました。
-                    また、撮影データの選別、編集、納品を翌日までに行えるよう丁寧で迅速な対応を心がけました。<br>
-                    撮影期間７時間　編集時間３時間<br>
-                    <a href="https://www.iidakakannon.com/" target="_blank" rel="noopener noreferrer">飯高観音萬勝寺様</a></p></li>
+                    また、撮影データの選別、編集、納品を翌日までに行えるよう丁寧で迅速な対応を心がけました。<br><br>
+                    撮影時間７時間　編集時間３時間<br><br>
+                    <a href="https://www.iidakakannon.com/" class="iidaka" target="_blank" rel="noopener noreferrer">飯高観音萬勝寺様</a></p></li>
             </ul>
             <ul class="project-photo">
-                <li><img src="img/DSC_7233.jpg" alt="saitophoto"></li>
-                <li><img src="img/DSC_7393.jpg" alt="saitophoto"></li>
-                <li><img src="img/DSC_7103.jpg" alt="saitophoto"></li>
+                <li><a href="img/DSC_7233.jpg" class="modalOpen"><img src="img/DSC_7233.jpg" alt="saitophoto"></a></li>
+                <li><a href="img/DSC_7393.jpg" class="modalOpen"><img src="img/DSC_7393.jpg" alt="saitophoto"></a></li>
+                <li><a href="img/DSC_7103.jpg" class="modalOpen"><img src="img/DSC_7103.jpg" alt="saitophoto"></a></li>
             </ul>
         </div>
     </main>
     <div id="footer"></div>
-
+    
+    <div class="modal" id="modal">
+        <div class="modal__overlay modalClose"></div>
+        <div class="modal__content">
+            <span class="modalClose modal__close">&times;</span>
+            <img id="modalImage" src="" alt="">
+        </div>
+    </div>
 </body>
 </html>

@@ -14,23 +14,32 @@
     <div id="header"></div>
     <!-- main -->
     <main class="wrapper project">
-        <h1>サンプル写真</h1>
+        <h1>商品写真</h1>
         <div class="">
             <ul class="project-top">
-                <li><img src="img/DSC_0953.jpg" alt="saitophoto"></li>
-                <li><p>サンプル写真の撮影。<br>
-                    ライティングを工夫し商品の質感が伝わるよう撮影しました。<br><br>
-                    作成期間各１時間</p></li>
+                <li><a href="img/DSC_2418.jpg" class="modalOpen"><img src="img/DSC_2418.jpg" alt="saitophoto"></a></li>
+                <li><p>商品写真の撮影。<br>
+                    商品紹介やWebサイト掲載を想定し撮影しました。<br>
+                    商品の質感や色合いが伝わるようライティングや背景を工夫しました。<br><br>
+                    撮影期間１時間　編集時間30分</p></li>
             </ul>
             <ul class="project-photo">
-                <li><img src="img/DSC_0980.jpg" alt="saitophoto"></li>
-                <li><img src="img/DSC_2418.jpg" alt="saitophoto"></li>
-                <li><img src="img/DSC_2356.jpg" alt="saitophoto"></li>
+                <li><a href="img/DSC_0980.jpg" class="modalOpen"><img src="img/DSC_0980.jpg" alt="saitophoto"></a></li>
+                <li><a href="img/DSC_2356.jpg" class="modalOpen"><img src="img/DSC_2356.jpg" alt="saitophoto"></a></li>
+                <li><a href="img/DSC_2316.jpg" class="modalOpen"><img src="img/DSC_2316.jpg" alt="saitophoto"></a></li>
+
             </ul>
         </div>
     </main>
     <!-- footer -->
     <div id="footer"></div>
 
+    <div class="modal" id="modal">
+            <div class="modal__overlay modalClose"></div>
+            <div class="modal__content">
+                <span class="modalClose modal__close">&times;</span>
+                <img id="modalImage" src="" alt="">
+            </div>
+        </div>
 </body>
 </html>

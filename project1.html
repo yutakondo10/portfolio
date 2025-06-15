@@ -17,15 +17,15 @@
         <h1>2024 WRC Gallery</h1>
         <div>
             <ul class="project-top">
-                <li><img src="img/saito/ギャラリーサイト (3).png" alt="saitophoto"></li>
-                <li><p>学校課題で講師の配布したテンプレートをもとにギャラリーサイトを作成した。<br>
-                        タイトルはGoogleフォントを使用し、スライドショーやモーダルウィンドウ等の機能追加を行った。<br><br>
+                <li><a href="img/saito/ギャラリーサイト (3).png" class="modalOpen"><img src="img/saito/ギャラリーサイト (3).png" alt="saitophoto"></a></li>
+                <li><p>学校課題でギャラリーサイトの作成を行いました。<br>
+                        自分で撮影した写真を使用しタイトルにはGoogleフォントを適応し、スライドショーやモーダルウィンドウ、絞り込み機能の追加を行いました。<br><br>
                         作成期間3週間</p></li>
             </ul>
             <ul class="project-photo">
-                <li><img src="img/saito/ギャラリーサイト (2).png" alt="saitophoto"></li>
-                <li><img src="img/saito/ギャラリーサイト (1).png" alt="saitophoto"></li>
-                <li><img src="img/saito/ギャラリーサイト.png" alt="saitophoto"></li>
+                <li><a href="img/saito/ギャラリーサイト (2).png" class="modalOpen"><img src="img/saito/ギャラリーサイト (2).png" alt="saitophoto"></a></li>
+                <li><a href="img/saito/ギャラリーサイト (1).png" class="modalOpen"><img src="img/saito/ギャラリーサイト (1).png" alt="saitophoto"></a></li>
+                <li><a href="img/saito/ギャラリーサイト.png" class="modalOpen"><img src="img/saito/ギャラリーサイト.png" alt="saitophoto"></a></li>
             </ul>
         </div>
 
@@ -34,5 +34,12 @@
     <!-- footer -->
     <div id="footer"></div>
 
+    <div class="modal" id="modal">
+        <div class="modal__overlay modalClose"></div>
+        <div class="modal__content">
+            <span class="modalClose modal__close">&times;</span>
+            <img id="modalImage" src="" alt="">
+        </div>
+    </div>
 </body>
 </html>
