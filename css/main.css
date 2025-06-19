@@ -102,7 +102,7 @@ header{
     font-size: 80px;
     width: 100%;
     height: auto;
-    padding-top: 20px;
+    padding: 25px 0;
 }
 .main-works ul{
     display: grid;
@@ -130,7 +130,7 @@ header{
     font-size: 80px;
     width: 100%;
     height: auto;
-    padding-top: 20px;
+    padding: 25px 0;
 }
 .main-about img{
     display: block;
@@ -144,7 +144,7 @@ header{
     font-size: 80px;
     width: 100%;
     height: auto;
-    padding-top: 40px;
+    padding: 25px 0;
 }
 .main-photography img{
     display: block;
@@ -152,34 +152,60 @@ header{
     width: 80%;
     height: auto;
 }
-.main-contact h2{
+/* maincontact */
+/* .main-contact h2{
     text-align: center;
     font-size: 80px;
     width: 100%;
     height: auto;
     padding: 40px 0;
-}
-.main-contact p{
-    font-size: 50px;
-    width: 100%;
+} */
+/* .gmail p{
+    font-size: 40px;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
     height: auto;
     color: white;
     background-color: #000000;
-    padding: 0 20px;
+    padding: 0 30px;
     border-radius: 30px;
-}
-.main-contact ul{
+    flex: 1;
+} */
+/* .insta p{
+    font-size: 40px;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    height: auto;
+    color: white;
+    background-color: #000000;
+    padding: 0 30px;
+    border-radius: 30px;
+    flex: 1;
+} */
+/* .main-contact ul{
     display: flex;
+    justify-content: center;
     margin: 0 auto;
     gap: 80px;
-    padding: 0px 0 30px 0;
-}
-.main-contact img{
-    width: 30%;
-}
+    padding: 0px 0 20px 0;
+} */
+/* .insta{
+    align-items: center;
+    padding: 20px 10px;
+} */
+
+/* .main-contact img{
+    width: 60px;
+} */
 /* footer---------- */
-footer {
+.gmail{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+footer{
     text-align: center;
-    font-size: 17px;
+    font-size: 16px;
     padding: 130px 0px 20px 0;
 }
