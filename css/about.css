@@ -24,6 +24,7 @@
     width: 100%;
     max-width: 1000px;
     margin: auto;
+    padding: 0 0 50px 0;
 }
 .about-top li {
     list-style: none;
@@ -47,18 +48,34 @@
     flex: 1.5;
     max-width: 800px;
 }
-.about h2{
-    font-size: 30px;
-    padding: 20px 0;
+
+.skills{
+    position: relative;
+    text-align: center;
+    border-bottom: 1px solid #000; /* 横線 */
+    margin: 40px 0; /* 上下余白 */
+}
+.skills span {
+    display: inline-block;
+    background-color: #fff; /* 背景色に合わせて調整 */
+    padding: 0 15px;
+    position: absolute;
+    left: 475px;
+    top: -20px;
+    z-index: 1;
+    font-size: 24px;
 }
 .about-skills ul{
     display: flex;
     justify-content: center;
     margin: 10px 0 ;
+    padding: 40px 0;
     width: 100%;
     height: auto;
 }
 .about-skills li{
     margin: 0 20px;
-    text-align: center;
+}
+.about-skills p{
+    width: 90%;
 }
